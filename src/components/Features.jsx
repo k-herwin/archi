@@ -132,7 +132,7 @@ export default function Features() {
           <div className="text-xs text-accent-600 font-semibold uppercase tracking-widest mb-4">
             Cycle de vie complet
           </div>
-          <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 leading-tight mb-5">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-zinc-900 leading-tight mb-5">
             Un seul outil,{' '}
             <span className="font-semibold">tout le cycle de&nbsp;vie</span> du projet
           </h2>

@@ -64,7 +64,7 @@ export default function Testimonials() {
           <div className="text-xs text-accent-600 font-semibold uppercase tracking-widest mb-4">
             Témoignages
           </div>
-          <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 leading-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-zinc-900 leading-tight">
             Ce que disent{' '}
             <span className="font-semibold">les agences qui l'utilisent</span>
           </h2>

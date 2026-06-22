@@ -50,7 +50,7 @@ export default function ClientPortal() {
             <div className="text-xs text-accent-600 font-semibold uppercase tracking-widest mb-4">
               Portail client
             </div>
-            <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 leading-tight mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-zinc-900 leading-tight mb-6">
               Offrez à vos clients
               <br />
               <span className="font-semibold">une expérience de suivi&nbsp;moderne</span>
@@ -161,16 +161,16 @@ export default function ClientPortal() {
                   <div className="text-xs text-zinc-400 uppercase tracking-widest font-medium mb-3">Mes paiements</div>
                   <div className="space-y-2">
                     {payments.map((p) => (
-                      <div key={p.label} className="flex items-center justify-between py-2 border-b border-zinc-100 last:border-0">
-                        <div className="flex items-center gap-2.5">
-                          <span className={`w-2 h-2 rounded-full ${
+                      <div key={p.label} className="flex items-center justify-between gap-3 py-2 border-b border-zinc-100 last:border-0">
+                        <div className="flex items-center gap-2 min-w-0">
+                          <span className={`w-2 h-2 rounded-full shrink-0 ${
                             p.status === 'paid' ? 'bg-emerald-400' :
                             p.status === 'upcoming' ? 'bg-accent-500 animate-pulse' : 'bg-zinc-200'
                           }`} />
-                          <span className="text-sm text-zinc-700">{p.label}</span>
-                          {p.date && <span className="text-xs text-accent-600 font-medium">{p.date}</span>}
+                          <span className="text-sm text-zinc-700 truncate">{p.label}</span>
+                          {p.date && <span className="text-xs text-accent-600 font-medium shrink-0">{p.date}</span>}
                         </div>
-                        <span className={`text-sm font-semibold ${
+                        <span className={`text-sm font-semibold shrink-0 ${
                           p.status === 'paid' ? 'text-zinc-400' :
                           p.status === 'upcoming' ? 'text-accent-600' : 'text-zinc-300'
                         }`}>{p.amount}</span>

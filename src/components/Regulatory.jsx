@@ -51,7 +51,7 @@ export default function Regulatory() {
             <div className="text-xs text-accent-400 font-semibold uppercase tracking-widest mb-4">
               Analyse réglementaire & technique
             </div>
-            <h2 className="text-4xl lg:text-5xl font-light text-white leading-tight mb-6">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-white leading-tight mb-6">
               Fini les heures perdues
               <br />
               <span className="font-semibold text-accent-400">à éplucher les PLU</span>

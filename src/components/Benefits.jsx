@@ -69,7 +69,7 @@ export default function Benefits() {
           <div className="text-xs text-accent-600 font-semibold uppercase tracking-widest mb-4">
             Résultats mesurables
           </div>
-          <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 leading-tight mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-zinc-900 leading-tight mb-4">
             Des bénéfices{' '}
             <span className="font-semibold">concrets et chiffrés</span>
           </h2>

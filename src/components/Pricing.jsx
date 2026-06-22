@@ -64,7 +64,7 @@ function PlanCard({ plan, index }) {
       ref={ref}
       className={`fade-up relative rounded-2xl p-8 flex flex-col ${
         plan.highlight
-          ? 'bg-zinc-900 text-white border border-zinc-800 shadow-2xl scale-[1.02]'
+          ? 'bg-zinc-900 text-white border border-zinc-800 shadow-2xl lg:scale-[1.02]'
           : 'bg-white border border-zinc-200'
       }`}
       style={{ transitionDelay: `${index * 80}ms` }}
@@ -125,7 +125,7 @@ export default function Pricing() {
           <div className="text-xs text-accent-600 font-semibold uppercase tracking-widest mb-4">
             Tarifs
           </div>
-          <h2 className="text-4xl lg:text-5xl font-light text-zinc-900 leading-tight mb-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-zinc-900 leading-tight mb-4">
             Un abonnement adapté
             <br />
             <span className="font-semibold">à la taille de votre agence</span>
